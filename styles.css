@@ -360,7 +360,7 @@ header nav ul li a:hover {
 
 .contact-info {
     max-width: 1100px;
-    margin: 0 auto 40px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
