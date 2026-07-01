@@ -128,23 +128,23 @@ header nav ul li a:hover {
 
 .cta-button {
     display: inline-block;
-    padding: 12px 36px;
-    background: var(--primary);
+    padding: 14px 42px;
+    background: var(--accent);
     color: #fff;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
+    font-weight: 700;
+    font-size: 1.05rem;
     border-radius: 6px;
-    box-shadow: 0 4px 12px rgba(26, 92, 122, 0.3);
+    box-shadow: 0 6px 20px rgba(107, 157, 92, 0.35);
     transition: all 0.2s ease;
     border: none;
     cursor: pointer;
 }
 
 .cta-button:hover {
-    background: var(--primary-light);
-    box-shadow: 0 8px 24px rgba(26, 92, 122, 0.4);
-    transform: translateY(-2px);
+    background: #5a8f4c;
+    box-shadow: 0 10px 30px rgba(107, 157, 92, 0.45);
+    transform: translateY(-3px);
 }
 
 .form-group .cta-button {
