@@ -98,10 +98,16 @@
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2>Schedule Your Session</h2>
-        <p>Ready to experience the benefits of advanced body work? Contact us to schedule your consultation with Pauline Pearson and learn how the Jimmy Bluff Technique can help you achieve structural alignment and pain relief.</p>
+        <h2>Ready to Book?</h2>
+        <p>Schedule your advanced body work session directly with our booking system.</p>
         
-        <div class="contact-info">
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="https://www.vagaro.com/massagewithpauline" target="_blank" rel="noopener" class="cta-button" style="display: inline-block; padding: 18px 50px; font-size: 1.1rem;">
+                Book Your Session on Vagaro
+            </a>
+        </div>
+        
+        <div class="contact-info" style="margin-top: 50px;">
             <div class="contact-item">
                 <h4>📧 Email</h4>
                 <p>pauline@massagewithpauline.com</p>
@@ -112,36 +118,8 @@
             </div>
             <div class="contact-item">
                 <h4>📍 Location</h4>
-                <p>Available for appointments<br>in your area</p>
+                <p>Morton, IL<br>Available for consultations</p>
             </div>
-        </div>
-        
-        <div class="contact-form">
-            <form id="contactForm">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required placeholder="Enter your email">
-                </div>
-                <div class="form-group">
-                    <label for="service">Service Interested In</label>
-                    <select id="service" name="service">
-                        <option value="">Select a service</option>
-                        <option value="AMR">Advanced Muscle Reconstruction (AMR)</option>
-                        <option value="Myofascial">Myofascial Release</option>
-                        <option value="Alignment">Structural Alignment</option>
-                        <option value="Recovery">Injury Recovery & Rehabilitation</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="4" placeholder="Tell us about your massage needs..."></textarea>
-                </div>
-                <button type="submit" class="cta-button">Send Message</button>
-            </form>
         </div>
     </section>
 
@@ -168,16 +146,6 @@
                     });
                 }
             });
-        });
-
-        // Form submission handler (adjust for your actual email service)
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! We will get back to you shortly.');
-            this.reset();
-            
-            // Replace this with actual email service integration
-            // Example: Fetch to SendGrid, Formspree, etc.
         });
 
         // Scroll animations
