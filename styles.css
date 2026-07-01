@@ -129,21 +129,21 @@ header nav ul li a:hover {
 .cta-button {
     display: inline-block;
     padding: 14px 42px;
-    background: var(--primary);
-    color: #fff;
+    background: #fff;
+    color: var(--primary);
     text-decoration: none;
     font-weight: 700;
     font-size: 1.05rem;
     border-radius: 6px;
-    box-shadow: 0 6px 20px rgba(26, 92, 122, 0.35);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease;
     border: none;
     cursor: pointer;
 }
 
 .cta-button:hover {
-    background: var(--primary-light);
-    box-shadow: 0 10px 30px rgba(26, 92, 122, 0.45);
+    background: #f0f5f8;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
     transform: translateY(-3px);
 }
 
@@ -530,25 +530,19 @@ footer .social-icons {
 }
 
 footer .social-icons a {
-    width: 36px;
-    height: 36px;
-    background: rgba(255, 255, 255, 0.12);
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     transition: all 0.2s ease;
-    font-size: 0.85rem;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: 0.95rem;
+    border: none;
+    background: none;
+    padding: 0;
+    display: inline;
 }
 
 footer .social-icons a:hover {
-    background: var(--accent);
     color: #fff;
-    border-color: var(--accent);
-    transform: translateY(-2px);
+    transform: none;
 }
 
 /* Responsive Design */
